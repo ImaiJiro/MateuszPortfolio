@@ -91,9 +91,15 @@ const portfolioData = {
             projectLink: null,
             duration: 'Client Project',
             content: '<p>Developed native iOS app with loyalty/rewards program, mobile ordering, and repeat-purchase incentives. Tech: Swift, UIKit, Core Data, REST APIs, MVVM.</p>',
+<<<<<<< HEAD
             mainImage: 'images/gabi.png',
             mainImageWide: 'images/gabi.png',
             images: [{ image: 'images/gabi-1.png' }, { image: 'images/gabi-2.png' }, { image: 'images/gabi-3.png' }, { image: 'images/gabi-4.png' }],
+=======
+            mainImage: 'images/Gabi.png',
+            mainImageWide: 'images/Gabi.png',
+            images: [{ image: 'images/Gabi-1.png' }, { image: 'images/Gabi-2.png' }, { image: 'images/Gabi-3.png' }, { image: 'images/Gabi-4.png' }],
+>>>>>>> 2e4177f (image error fixed)
             categories: [{ name: 'iOS' }, { name: 'Retail' }, { name: 'Loyalty' }],
         },
         {
@@ -105,9 +111,15 @@ const portfolioData = {
             projectLink: null,
             duration: 'Concept & Development',
             content: '<p>Peer-to-peer marketplace with dual-layer authentication (community + platform). Tech: Swift, UIKit, Core Data, REST APIs, MVVM.</p>',
+<<<<<<< HEAD
             mainImage: 'images/legitness.png',
             mainImageWide: 'images/legitness.png',
             images: [{ image: 'images/legitness-1.png' }, { image: 'images/legitness-2.png' }, { image: 'images/legitness-3.png' }, { image: 'images/legitness-4.png' }],
+=======
+            mainImage: 'images/Legitness.png',
+            mainImageWide: 'images/Legitness.png',
+            images: [{ image: 'images/Legitness-1.png' }, { image: 'images/Legitness-2.png' }, { image: 'images/Legitness-3.png' }, { image: 'images/Legitness-4.png' }],
+>>>>>>> 2e4177f (image error fixed)
             categories: [{ name: 'iOS' }, { name: 'Marketplace' }, { name: 'Authentication' }],
         },
         {
