@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="header-wrapper">
+                <div class="header-logo"><h2><a href="../index.html"><img src="../images/niznik.png" alt="logo"></a></h2></div>
+                <div class="header-nav">
+                    <a class="button button-sm button-dot me-2" href="../index.html#contact"><span data-text="Let's Talk">Let's Talk</span></a>
+                    <button type="button" class="button button-sm button-dot button-white" id="menuToggle"><span data-text="Menu">Menu</span></button>
+                    <div class="nav-box" id="navBox">
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link" href="../index.html#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <h1 class="display-3 fw-medium">Blog Post <span class="text-gradient">Title</span></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="row g-4 mt-5">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="fancy-box"><h6 class="sm-heading mb-1">Category:</h6><ul class="list-inline-dot"><li>Category</li></ul></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="fancy-box"><h6 class="sm-heading mb-1">Posted by:</h6><p>Admin</p></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="fancy-box"><h6 class="sm-heading mb-1">Tags:</h6><ul class="list-inline-dot"><li>Tag 1</li><li>Tag 2</li></ul></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="fancy-box"><h6 class="sm-heading mb-1">Posted on:</h6><p>Oct 8</p></div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <a href="../index.html" class="back-link-inline" aria-label="Back to home"><i class="bi bi-arrow-left"></i> Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <div class="section-sm bg-dark border-radius-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <img class="border-radius mt-4" src="../images/blog-img-wide.jpg" alt="Blog Post" style="width:100%">
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-6"><a href="blog-post-title-1.html" class="button"><span data-text="Prev Post">Prev Post</span></a></div>
+                        <div class="col-6 text-end"><button class="button btn-disabled" disabled><span data-text="Next Post">Next Post</span></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="py-4 py-lg-5 text-center"><p>&copy; <span id="year"></span> Mateusz Niznik, All Rights Reserved.</p></div>
+    <div class="scrolltotop" id="scrollToTop"><a class="button-circle" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"><i class="bi bi-arrow-up"></i><i class="bi bi-arrow-up"></i></a></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('menuToggle')?.addEventListener('click', () => document.getElementById('navBox').classList.toggle('show'));
+        window.addEventListener('scroll', () => document.getElementById('scrollToTop').classList.toggle('show', window.scrollY > 700));
+    </script>
+</body>
+</html>

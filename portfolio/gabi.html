@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabi Mobile App - iOS Pastry Bakery | Mateusz Niznik</title>
+    <meta name="description" content="Native iOS app for Las Vegas pastry bakery. Customer loyalty, rewards program, and mobile ordering. Built with Swift and UIKit.">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="header-wrapper">
+                <div class="header-logo"><h2><a href="../index.html"><img src="../images/niznik.png" alt="logo"></a></h2></div>
+                <div class="header-nav">
+                    <a class="button button-sm button-dot me-2" href="../index.html#contact"><span data-text="Let's Talk">Let's Talk</span></a>
+                    <button type="button" class="button button-sm button-dot button-white" id="menuToggle"><span data-text="Menu">Menu</span></button>
+                    <div class="nav-box" id="navBox">
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link" href="../index.html#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <h1 class="display-3 fw-medium">Gabi – <span class="text-gradient">Pastry Bakery App</span></h1>
+                        <p>Native iOS application for a Las Vegas–based pastry bakery. Delivers a customer loyalty and rewards platform, mobile ordering, and repeat-purchase incentives—built with Swift and UIKit for a seamless in-store and on-the-go experience.</p>
+                    </div>
+                </div>
+                <div class="row g-4 mt-5">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="fancy-box"><h6 class="sm-heading mb-1">Platform:</h6><ul class="list-inline-dot"><li>iOS</li><li>Swift</li><li>UIKit</li></ul></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="fancy-box"><h6 class="sm-heading mb-1">Client:</h6><p>Gabi Bakery, Las Vegas</p></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="fancy-box"><h6 class="sm-heading mb-1">Focus:</h6><p>Loyalty · Mobile Ordering · Retail</p></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="fancy-box"><h6 class="sm-heading mb-1">Architecture:</h6><p>MVVM · REST APIs</p></div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <a href="../index.html" class="back-link-inline" aria-label="Back to home"><i class="bi bi-arrow-left"></i> Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <div class="section-sm bg-dark border-radius-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                            <div class="formatted-project-content">
+                                <h2><strong>Technical Overview</strong></h2>
+                                <p>Gabi is a native iOS application developed for a Las Vegas pastry bakery. The app focuses on driving repeat visits and higher average order value through a customer loyalty and rewards system, streamlined mobile ordering, and a clear, intuitive storefront experience.</p>
+
+                                <h3><strong>Core Features</strong></h3>
+                                <ul>
+                                    <li><strong>Loyalty & Rewards Program</strong> – Points-based system with tiered rewards, redeemable for discounts and free items</li>
+                                    <li><strong>Mobile Ordering</strong> – Browse menu, customize items, and place orders for pickup or delivery</li>
+                                    <li><strong>Repeat Purchase Incentives</strong> – Promotions, stamps, and offers designed to increase visit frequency</li>
+                                    <li><strong>Order History & Tracking</strong> – Past orders and status updates for a smooth pickup flow</li>
+                                </ul>
+
+                                <h3><strong>Architecture & Implementation</strong></h3>
+                                <p>Built with Swift and UIKit using an MVVM architecture. The app integrates with backend services for real-time menu data, loyalty balances, and order management. Secure authentication and payment-ready flows support a production-ready retail experience.</p>
+
+                                <h3><strong>Tech Stack</strong></h3>
+                                <p>Swift, UIKit, Core Data, REST APIs, Firebase (optional), modular architecture, secure authentication</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- App Screenshots in one line -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <h4 class="mb-3">App Screenshots</h4>
+                            <div class="screenshots-row">
+                                <div class="screenshot-item"><img class="border-radius" src="../images/gabi.png" alt="Gabi - Main"></div>
+                                <div class="screenshot-item"><img class="border-radius" src="../images/gabi-1.png" alt="Gabi - Menu" onerror="this.src='../images/gabi.png'"></div>
+                                <div class="screenshot-item"><img class="border-radius" src="../images/gabi-2.png" alt="Gabi - Loyalty" onerror="this.src='../images/gabi.png'"></div>
+                                <div class="screenshot-item"><img class="border-radius" src="../images/gabi-3.png" alt="Gabi - Ordering" onerror="this.src='../images/gabi.png'"></div>
+                                <div class="screenshot-item"><img class="border-radius" src="../images/gabi-4.png" alt="Gabi - Rewards" onerror="this.src='../images/gabi.png'"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-6"><a href="sentikits.html" class="button"><span data-text="Prev Project">Prev Project</span></a></div>
+                        <div class="col-6 text-end"><a href="legitness.html" class="button"><span data-text="Next Project">Next Project</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="py-4 py-lg-5 text-center"><p>&copy; <span id="year"></span> Mateusz Niznik, All Rights Reserved.</p></div>
+    <div class="scrolltotop" id="scrollToTop"><a class="button-circle" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"><i class="bi bi-arrow-up"></i><i class="bi bi-arrow-up"></i></a></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('menuToggle')?.addEventListener('click', () => document.getElementById('navBox').classList.toggle('show'));
+        document.getElementById('scrollToTop').classList.toggle('show', window.scrollY > 700);
+        window.addEventListener('scroll', () => document.getElementById('scrollToTop').classList.toggle('show', window.scrollY > 700));
+    </script>
+</body>
+</html>
