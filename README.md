@@ -1,5 +1,6 @@
 # Mateusz Portfolio - HTML/CSS Version
 
+
 This is a static HTML/CSS version of the Next.js portfolio. No Node.js or build tools required—just open in a browser or use a simple local server.
 
 ## Project Structure
