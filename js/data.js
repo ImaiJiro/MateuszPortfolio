@@ -71,16 +71,16 @@ const portfolioData = {
         {
             title: 'SentiKits - Digital Wellbeing',
             slug: 'sentikits',
-            description: 'Native iOS digital wellbeing platform with AI-assisted reflection modules, intelligent journaling, and personalized emotional support. Built with Swift and UIKit for production-grade performance.',
-            services: [{ name: 'iOS' }, { name: 'Swift' }, { name: 'AI' }, { name: 'Wellbeing' }],
+            description: 'React Native digital wellbeing app for iOS and Android. AI-assisted reflection modules, intelligent journaling, and personalized emotional support. Built with React, React Native, JavaScript, Express/Node.js.',
+            services: [{ name: 'React Native' }, { name: 'React' }, { name: 'JavaScript' }, { name: 'Node.js' }],
             client: 'Client',
             projectLink: null,
             duration: 'Ongoing',
-            content: '<p>Led design and implementation of AI-enabled learning and reflection features. Delivered structured reflection modules, intelligent journaling concepts, and digital learning frameworks. Tech: Swift, UIKit, Core Data, REST APIs, AI/ML integration, MVVM.</p>',
+            content: '<p>Led design and implementation of AI-enabled learning and reflection features. Delivered structured reflection modules, intelligent journaling concepts, and digital learning frameworks. Tech: React, React Native, JavaScript, Express/Node.js, REST APIs, AI/ML integration.</p>',
             mainImage: 'images/sentikits.png',
             mainImageWide: 'images/sentikits.png',
             images: [{ image: 'images/sentikits-1.png' }, { image: 'images/sentikits-2.png' }, { image: 'images/sentikits-3.png' }],
-            categories: [{ name: 'iOS' }, { name: 'AI' }, { name: 'Wellbeing' }],
+            categories: [{ name: 'React Native' }, { name: 'iOS & Android' }, { name: 'Wellbeing' }],
         },
         {
             title: 'Gabi - Pastry Bakery App',
@@ -91,36 +91,24 @@ const portfolioData = {
             projectLink: null,
             duration: 'Client Project',
             content: '<p>Developed native iOS app with loyalty/rewards program, mobile ordering, and repeat-purchase incentives. Tech: Swift, UIKit, Core Data, REST APIs, MVVM.</p>',
-<<<<<<< HEAD
-            mainImage: 'images/gabi.png',
-            mainImageWide: 'images/gabi.png',
-            images: [{ image: 'images/gabi-1.png' }, { image: 'images/gabi-2.png' }, { image: 'images/gabi-3.png' }, { image: 'images/gabi-4.png' }],
-=======
             mainImage: 'images/Gabi.png',
             mainImageWide: 'images/Gabi.png',
             images: [{ image: 'images/Gabi-1.png' }, { image: 'images/Gabi-2.png' }, { image: 'images/Gabi-3.png' }, { image: 'images/Gabi-4.png' }],
->>>>>>> 2e4177f (image error fixed)
             categories: [{ name: 'iOS' }, { name: 'Retail' }, { name: 'Loyalty' }],
         },
         {
             title: 'Legitness - Resale Authentication',
             slug: 'legitness',
-            description: 'Native iOS marketplace for premium second-hand clothing. Community and platform authentication to increase transparency and trust in the resale market.',
-            services: [{ name: 'iOS' }, { name: 'Swift' }, { name: 'Marketplace' }, { name: 'Authentication' }],
+            description: 'React Native marketplace app for iOS and Android. Premium second-hand clothing with community and platform authentication to increase transparency and trust in the resale market.',
+            services: [{ name: 'React Native' }, { name: 'React' }, { name: 'JavaScript' }, { name: 'Node.js' }],
             client: 'Concept / Startup',
             projectLink: null,
             duration: 'Concept & Development',
-            content: '<p>Peer-to-peer marketplace with dual-layer authentication (community + platform). Tech: Swift, UIKit, Core Data, REST APIs, MVVM.</p>',
-<<<<<<< HEAD
-            mainImage: 'images/legitness.png',
-            mainImageWide: 'images/legitness.png',
-            images: [{ image: 'images/legitness-1.png' }, { image: 'images/legitness-2.png' }, { image: 'images/legitness-3.png' }, { image: 'images/legitness-4.png' }],
-=======
+            content: '<p>Peer-to-peer marketplace with dual-layer authentication (community + platform). Tech: React, React Native, JavaScript, Express/Node.js, REST APIs.</p>',
             mainImage: 'images/Legitness.png',
             mainImageWide: 'images/Legitness.png',
             images: [{ image: 'images/Legitness-1.png' }, { image: 'images/Legitness-2.png' }, { image: 'images/Legitness-3.png' }, { image: 'images/Legitness-4.png' }],
->>>>>>> 2e4177f (image error fixed)
-            categories: [{ name: 'iOS' }, { name: 'Marketplace' }, { name: 'Authentication' }],
+            categories: [{ name: 'React Native' }, { name: 'iOS & Android' }, { name: 'Marketplace' }],
         },
         {
             title: 'STREETVERS - Roguelike',
