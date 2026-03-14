@@ -28,6 +28,10 @@ const aboutData = {
         { name: 'Project Management' },
         { name: 'Swift & Objective-C' },
         { name: 'UX/UI & MapKit' },
+        { name: 'React' },
+        { name: 'React Native' },
+        { name: 'JavaScript' },
+        { name: 'Express / Node.js' },
     ],
     connect: [
         { url: 'https://www.linkedin.com/in/mateusz-niznik/', bootstrapIcon: 'bi bi-linkedin' },
